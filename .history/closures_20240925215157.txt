@@ -1,0 +1,9 @@
+function outerFunction(){
+    let outerVariable ="hi"
+function innerVariable(){
+    console.log(outerVariable);
+}
+return innerVariable;
+}
+const closurefn = outerFunction();
+closurefn()

@@ -1,0 +1,4 @@
+function outerFunction(){
+    let outerVariable ="hi"
+function innerVariable(){}
+}
