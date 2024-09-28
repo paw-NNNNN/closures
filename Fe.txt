@@ -4,10 +4,42 @@ https://youtu.be/neMhpGLvkp8?si=o7eyaNgT91dgPg3_
 <head> 
 
 </head>
-<div>
-<div>
+<div class="container">
+<div class="starparent">
+<div class="star"></div>
 </div>
-<div>
+<div class="ratingparent">
 </div>
 </div>
 </html>
+
+
+
+css{
+
+body{
+background-color:"red";
+height:100vh;
+width:100vw;
+}
+container{
+display:flex;
+flex-direction:row;
+height:100vh;
+width:100vw;
+gap:10px;
+background-color:"blue";
+}
+starparent{
+border:2px solid black;
+width:50px ;
+height:100px;
+background-color:"yellow";
+}
+ratingparent{
+border:2px solid black;
+width:50px!
+height:100px;
+background-color:"yellow";
+}
+}
