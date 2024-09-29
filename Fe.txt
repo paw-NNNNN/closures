@@ -89,4 +89,8 @@ stars[i].style.background="white";
 }
 })
 })
-
+let as n = 
+match n with :
+| 0-> "hi"
+| n>0 then -> "postive"
+| _ -> "default"
